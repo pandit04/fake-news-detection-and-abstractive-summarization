@@ -1,1 +1,3 @@
 # fake-news-detection-and-abstractive-summarization
+
+This repository integrates Fake News Detection, Explainability, and Abstractive Summarization for Hindi news articles. The system first classifies news as real or fake using a BERT-based model. It then provides an explanation for the classification using LIME (Local Interpretable Model-agnostic Explanations) to help users understand the decision-making process of the model. Finally, it generates a concise abstractive summary of the news article using the T5 model, regardless of whether the news is real or fake. This ensures that users receive both a classification decision with an explanation and a meaningful summary of the input news
